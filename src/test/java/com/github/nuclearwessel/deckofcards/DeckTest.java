@@ -57,10 +57,6 @@ public class DeckTest {
         }
 
         assertEquals(0, sut.getRemainingCardCount());
-
-        final Card nullCard = sut.dealOneCard();
-
-        assertNull(nullCard);
     }
 
     @Test
